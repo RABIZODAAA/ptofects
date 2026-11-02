@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.salom1 {
+    background-color:aqua;
+    background-image: url("./bc49a2d9c02e8e4c39ff29f37248da0deba3f3f2.jpg ");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 25px 10%;
+}
+
+.salom2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.salom2 h3 {
+    font-size: 20px;
+}
+
+.salom2 b {
+    color: aqua;
+}
+
+.salom3 {
+    display: flex;
+    gap: 25px;
+}
+
+.salom3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.salom4 {
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.salom5 {
+    display: none;
+}
+
+.salom6 {
+    margin-top: 60px;
+}
+
+.salom6 h1 {
+    font-size: 26px;
+    margin: 5px 0;
+}
+
+.salom6 h2 {
+    display: table;
+    background-color: aquamarine;
+    font-size: 23px;
+    margin: 5px 0;
+    padding: 3px;
+}
+
+.salom6 p {
+    color: white;
+}
+
+.salom7 {
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .salom1 {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .salom2 h3 {
+        font-size: 18px;
+    }
+
+    .salom3 {
+        display: none;
+    }
+
+    .salom4 {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .salom5 {
+        display: block;
+        background-color: white;
+        color: aquamarine;
+        border: none;
+        padding: 12px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .salom6 {
+        margin-top: 100px;
+    }
+
+    .salom6 h1 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .salom6 h2 {
+        display: inline-block;
+        font-size: 27px;
+        line-height: 1.5;
+        padding: 3px 8px;
+    }
+
+    .salom6 p {
+        font-size: 17px;
+        line-height: 1.8;
+        margin-top: 35px;
+    }
+
+    .salom7 {
+        width: 80%;
+        padding: 20px;
+        margin-top: 25px;
+        font-size: 17px;
+    }
+}
