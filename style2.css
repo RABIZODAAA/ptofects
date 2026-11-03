@@ -1,9 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
-
+body{
+    margin: 0 auto;
+    max-width: 1500px;
+}
 .salom1 {
     background-color: aqua;
     background-image: url("./bc49a2d9c02e8e4c39ff29f37248da0deba3f3f2.jpg ");
@@ -1006,7 +1009,7 @@
 }
 
 .salom211 {
-    max-width: 300px;
+    
 }
 
 .salom212 {
