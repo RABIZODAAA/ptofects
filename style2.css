@@ -1065,14 +1065,17 @@
     border-radius: 6px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-.salomm{
+
+.salomm {
     margin-left: 50px;
     width: 30%;
 }
-.salomm{
+
+.salomm {
     margin-left: 50px;
     width: 30%;
 }
+
 .salom220 {
     height: 45px;
     background: #fff;
@@ -1298,7 +1301,7 @@
     width: 70px;
     height: 70px;
     margin: 0 auto 12px;
-     
+
 }
 
 .salom254 {
@@ -1407,7 +1410,7 @@
     width: 70px;
     height: 70px;
     margin: 0 auto 12px;
-   
+
 }
 
 .salom269 {
@@ -1516,7 +1519,7 @@
     width: 70px;
     height: 70px;
     margin: 0 auto 12px;
-   
+
 }
 
 .salom284 {
@@ -1612,6 +1615,134 @@
     color: #fff;
     font-size: 10px;
     cursor: pointer;
+}
+
+.salom297 {
+    padding: 40px 60px;
+}
+
+.salom298 {
+    margin: 0 0 40px;
+    font-size: 20px;
+    color: #1a78b4;
+}
+
+.salom299 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.salom300 {
+    flex: 1;
+    border-radius: 6px;
+}
+
+.salom301 {
+    flex: 1;
+}
+
+.salom302 {
+    margin: 0 0 25px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.salom303 {
+    font-weight: 700;
+    color: #1a78b4;
+}
+
+.salom304 {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.salom305 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.salom306 {}
+
+.salom307 {
+    flex: 1;
+}
+
+.salom308 {
+    margin: 0 0 25px;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 1.7;
+    color: #333;
+}
+
+.salom309 {
+    margin: 0 0 4px;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.salom310 {
+    margin: 0;
+    font-size: 9px;
+    color: #777;
+}
+
+.salom311 {
+    display: flex;
+    gap: 6px;
+}
+
+.salom312 {
+    flex: 1;
+    border-radius: 4px;
+
+}
+
+.salom313 {
+    flex: 1;
+
+    border-radius: 4px;
+
+}
+
+.salom314 {
+    flex: 1;
+
+    border-radius: 4px;
+
+}
+
+.salom315 {
+    flex: 1;
+
+    border-radius: 4px;
+
+}
+
+.salom316 {
+    flex: 1;
+
+    border-radius: 4px;
+
+}
+
+.surati1 {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 @media (max-width: 500px) {
@@ -1962,11 +2093,58 @@
     }
 
 
-    .salom163 {
-        position: relative;
-        margin: 0 60px 40px;
-        aspect-ratio: 711 / 390;
-        border-radius: 6px;
-        background: url(fon-video.png) center / cover no-repeat;
+    .salom297 {
+        padding: 30px 15px;
+    }
+
+    .salom299 {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .salom300 {
+        width: 100%;
+        flex: none;
+    }
+
+    .salom305 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .salom306 {
+        width: 100%;
+    }
+
+
+
+    .salom312 {
+        display: none;
+        width: 140px;
+    }
+
+    .salom313 {
+        display: none;
+        width: 140px;
+    }
+
+    .salom314 {
+        display: none;
+        width: 140px;
+    }
+
+    .salom315 {
+        flex: none;
+        width: 140px;
+    }
+
+    .salom316 {
+        flex: none;
+        width: 140px;
+    }
+
+    .surati1 {
+        width: 100px;
+        height: 100px;
     }
 }
